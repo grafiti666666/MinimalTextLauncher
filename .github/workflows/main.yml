@@ -24,7 +24,7 @@ jobs:
 
       - name: Extract Android project
         run: |
-          unzip -q MinimalTextLauncher-Battery.zip
+          unzip -q MinimalTextLauncher-Fixed.zip
           cd MinimalTextLauncher
           echo "Project extracted successfully"
           ls -la
